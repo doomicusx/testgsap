@@ -1,3 +1,12 @@
+gsap.to(".box", {
+  scrollTrigger: {
+    trigger: ".box",
+    start: "center top",
+    pin: true,
+  },
+  x: 500,
+});
+
 const tl = gsap.timeline();
 tl.fromTo(
   ".header",
